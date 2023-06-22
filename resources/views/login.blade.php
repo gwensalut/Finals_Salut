@@ -3,6 +3,7 @@
 @section('content')
     <h1>WELCOME TO LOG IN PAGE</h1>
     <h2>ACTIVITY PLUS 20 & COLLOQUIUM ATTENDEES</h2>
+    <h3>SALUT</h3>
     <form action="{{ route ('login.submit')}}" method="post">
         @csrf
         <div>
